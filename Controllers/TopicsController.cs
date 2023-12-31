@@ -1,6 +1,7 @@
 ﻿using be_fletchs_news_csharp.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using be_fletchs_news_csharp.Models;
 
 namespace be_fletchs_news_csharp.Controllers
 {
