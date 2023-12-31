@@ -1,4 +1,5 @@
 
+using be_fletchs_news_csharp.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace be_fletchs_news_csharp
@@ -16,10 +17,10 @@ namespace be_fletchs_news_csharp
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var app = builder.Build();
-
             //Configure database connection here.
             builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            
+            var app = builder.Build();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
