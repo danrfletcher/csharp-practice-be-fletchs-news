@@ -1,9 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace be_fletchs_news_csharp.Models
 {
     public class User
     {
+        [Key]
         [Column("username")]
         public string Username { get; set; } = string.Empty;
         [Column("name")]
