@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "be-fletchs-news-csharp", "be-fletchs-news-csharp.csproj", "{426CF992-BFD4-4B19-8917-2F551D198F62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{426CF992-BFD4-4B19-8917-2F551D198F62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{426CF992-BFD4-4B19-8917-2F551D198F62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{426CF992-BFD4-4B19-8917-2F551D198F62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{426CF992-BFD4-4B19-8917-2F551D198F62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6933FD8-4A17-4933-86B8-4717B45A4696}
+	EndGlobalSection
+EndGlobal

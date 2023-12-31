@@ -1,0 +1,6 @@
+@be_fletchs_news_csharp_HostAddress = http://localhost:5038
+
+GET {{be_fletchs_news_csharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
