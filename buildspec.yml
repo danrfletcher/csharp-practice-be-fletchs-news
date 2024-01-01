@@ -21,6 +21,7 @@ phases:
     commands:
       - echo Build completed 
       - dotnet publish --configuration Release --output ./publish # Publish
+        # Add testing when ready
 
 artifacts:
   files:
