@@ -27,8 +27,8 @@ namespace be_fletchs_news_csharp.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Topic>>> GetTopics()
         {
-            var topics = await _topicRepository.GetAllTopicsAsync();
-            return Ok(topics);
+            //var topics = await _topicRepository.GetAllTopicsAsync();
+            return Ok("This endpoint will return topics");
         }
 
         /// <summary>
