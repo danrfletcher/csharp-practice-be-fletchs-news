@@ -1,0 +1,32 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      dotnet: 8.0 # .NET Core version
+    commands:
+      - echo Installing dependencies...
+
+  pre_build:
+    commands:
+      - echo Restore started 
+      - dotnet restore 
+
+  build:
+    commands:
+      - echo Build started 
+      - dotnet build --configuration Release # Compile
+
+  post_build:
+    commands:
+      - echo Build completed 
+      - dotnet publish --configuration Release --output ./publish # Publish
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: './publish' # Output directory
+
+cache:
+  paths:
+    - '/root/.nuget/packages/**/*'
